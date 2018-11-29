@@ -5,13 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrewComponent } from './brew/brew.component';
 import { BrewReviewComponent } from './brew-review/brew-review.component';
+import { BrewlistComponent } from './brewlist/brewlist.component';
+import { UserComponent } from './user/user.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BrewComponent,
-    BrewReviewComponent
+    BrewReviewComponent,
+    BrewlistComponent,
+    UserComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
