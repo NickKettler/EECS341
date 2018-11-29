@@ -1,7 +1,6 @@
 # EECS341
 Beer Database for the Cleveland Area
 
-
 How to set up:
 
 Instal latest angular 
