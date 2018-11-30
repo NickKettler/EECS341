@@ -13,6 +13,7 @@ export class BrewlistComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
