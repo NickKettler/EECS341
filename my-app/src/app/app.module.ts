@@ -8,6 +8,7 @@ import { BrewReviewComponent } from './brew-review/brew-review.component';
 import { BrewlistComponent } from './brewlist/brewlist.component';
 import { UserComponent } from './user/user.component';
 import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { LoginComponent } from './login/login.component';
     BrewReviewComponent,
     BrewlistComponent,
     UserComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
