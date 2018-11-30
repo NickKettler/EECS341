@@ -1,5 +1,28 @@
 
+<h2>Brew List</h2>
+<ul class="brews">
+  <li *ngFor="let brew of brews">
+    <span class="badge">{{brew.id}}</span> <span>{{brew.name}}</span> {{brew.type}} {{brew.isAvalible}} {{brew.breweryID}}
+  </li>
+</ul>
 
+<table>
+  <tr>
+    <th *ngFor="let col of columns">
+      {{col}}
+    </th>
+  </tr>
+  <tr *ngFor="let brew of brews">
+    <td *ngFor="let col of columns">
+      {{char[col]}}
+    </td>
+  </tr>
+</table>
+
+
+
+
+<!-- Mock Table
 <table style="width:70%" align="center">
   <tr>
     <th>Brewery Name</th>
@@ -20,6 +43,7 @@
     <td>No</td>
   </tr>
 </table>
+-->
 
 
 
