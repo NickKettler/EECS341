@@ -9,6 +9,7 @@ import { BrewlistComponent } from './brewlist/brewlist.component';
 import { UserComponent } from './user/user.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { BreweryComponent } from './brewery/brewery.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { SignupComponent } from './signup/signup.component';
     BrewlistComponent,
     UserComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    BreweryComponent
   ],
   imports: [
     BrowserModule,
