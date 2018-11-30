@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BrewComponent implements OnInit {
 
   constructor() { }
-//test
+
   ngOnInit() {
   }
 
